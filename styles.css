@@ -255,6 +255,10 @@ h3 {
   font-size: 1.35rem;
 }
 
+.registration-date {
+  color: #b84d4d;
+}
+
 .contact-form {
   display: grid;
   gap: 1rem;
