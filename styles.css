@@ -104,6 +104,7 @@ nav a[aria-current="page"] {
 }
 
 .hero {
+  margin-top: 2rem;
   padding: 4rem max(1.5rem, calc((100% - 1040px) / 2));
   background: rgb(255 239 224 / 90%);
   text-align: center;
