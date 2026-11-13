@@ -74,11 +74,11 @@ summary:focus-visible {
 }
 
 .brand--home {
-  font-size: 1.4rem;
+  font-size: 2.8rem;
 }
 
 .brand--home span {
-  font-size: 1.1rem;
+  font-size: 2.2rem;
 }
 
 nav {
@@ -235,6 +235,40 @@ h3 {
 
 .info-panel h2 {
   font-size: 1.35rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  max-width: 650px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 650;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.35rem;
+  color: var(--ink);
+  background: #fff;
+  font: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  justify-self: start;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
 }
 
 .info-panel p:last-child,
