@@ -106,6 +106,12 @@ nav a[aria-current="page"] {
 .hero {
   padding: 4rem max(1.5rem, calc((100% - 1040px) / 2));
   background: rgb(255 239 224 / 90%);
+  text-align: center;
+}
+
+.hero .intro {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero h1,
