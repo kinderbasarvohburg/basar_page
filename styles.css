@@ -17,7 +17,7 @@
 body {
   margin: 0;
   color: var(--ink);
-  background: #fff;
+  background: #fff url("image.jpg") center center / cover fixed no-repeat;
   line-height: 1.65;
 }
 
@@ -92,7 +92,7 @@ nav a[aria-current="page"] {
 
 .hero {
   padding: 5rem max(1.5rem, calc((100% - 1040px) / 2));
-  background: var(--mint);
+  background: rgb(234 243 236 / 82%);
 }
 
 .hero h1,
@@ -195,7 +195,7 @@ h3 {
   padding: 1.4rem;
   border: 1px solid var(--line);
   border-radius: 0.65rem;
-  background: #fff;
+  background: rgb(255 255 255 / 90%);
 }
 
 .card p {
@@ -222,7 +222,7 @@ h3 {
 
 .info-panel {
   margin-top: 1rem;
-  background: var(--cream);
+  background: rgb(251 248 240 / 92%);
 }
 
 .info-panel h2 {
@@ -263,7 +263,7 @@ h3 {
   gap: 1rem;
   padding: 1.5rem max(1.5rem, calc((100% - 1040px) / 2));
   color: var(--muted);
-  background: var(--cream);
+  background: rgb(251 248 240 / 92%);
   font-size: 0.9rem;
 }
 
