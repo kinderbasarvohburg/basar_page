@@ -17,7 +17,12 @@
 body {
   margin: 0;
   color: var(--ink);
-  background: #fff url("image.jpg") center center / cover fixed no-repeat;
+  background-color: #fff7cf;
+  background-image: url("hintergrund.svg");
+  background-position: center;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   line-height: 1.65;
 }
 
@@ -100,7 +105,7 @@ nav a[aria-current="page"] {
 
 .hero {
   padding: 4rem max(1.5rem, calc((100% - 1040px) / 2));
-  background: rgb(234 243 236 / 82%);
+  background: rgb(255 239 224 / 90%);
 }
 
 .hero h1,
@@ -154,7 +159,7 @@ nav a[aria-current="page"] {
 .next-event {
   display: grid;
   grid-template-columns: minmax(180px, 0.7fr) 1.3fr;
-  gap: 2rem;
+  gap: 1rem;
   align-items: start;
   border-bottom: 1px solid var(--line);
 }
@@ -172,7 +177,7 @@ h3 {
 
 .event-details {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: minmax(120px, 0.8fr) minmax(160px, 1fr) minmax(220px, 1.4fr);
   gap: 1rem;
   margin: 0;
 }
@@ -185,6 +190,19 @@ h3 {
 .event-details dd {
   margin: 0.2rem 0 0;
   font-weight: 700;
+}
+
+.event-location {
+  padding-left: 1rem;
+}
+
+.event-time {
+  margin-left: -1rem;
+}
+
+.event-time-note {
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .section {
@@ -334,6 +352,10 @@ h3 {
   .next-event {
     grid-template-columns: 1fr;
     gap: 1.25rem;
+  }
+
+  .event-details {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 
   .card-grid {
