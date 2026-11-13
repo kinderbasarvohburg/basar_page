@@ -1,4 +1,4 @@
-# Kinderbasar Sonnenschein
+# Kinderbasar Vohburg a.d. Donau
 
 Eine kleine, rein statische Website. Sie benötigt weder Backend noch Datenbank, Build-Schritt, JavaScript oder externe Bibliotheken und kann daher auf einem statischen Webhost betrieben werden.
 
@@ -7,13 +7,14 @@ Eine kleine, rein statische Website. Sie benötigt weder Backend noch Datenbank,
 - `index.html`: Startseite mit nächstem Basartermin
 - `besucher.html`: Öffnungszeiten, Ort und Hinweise
 - `verkaeufer.html`: Teilnahme und Ablauf für Verkäufer
+- `helfer.html`: Informationen für Helferinnen und Helfer
 - `faq.html`: Häufige Fragen
 - `kontakt.html`: Kontakt zum Organisationsteam
 - `impressum.html` und `datenschutz.html`: rechtliche Informationsseiten
 
 ## Inhalte anpassen
 
-Ersetze vor der Veröffentlichung alle Angaben in eckigen Klammern. Aktualisiere außerdem den Beispielnamen „Kinderbasar Sonnenschein“ in den HTML-Dateien. Impressum und Datenschutzhinweise sind ausdrücklich nur Platzhalter und müssen an Betreiber, Hosting und tatsächliche Nutzung angepasst werden.
+Ersetze vor der Veröffentlichung alle Angaben in eckigen Klammern. Impressum und Datenschutzhinweise sind ausdrücklich nur Platzhalter und müssen an Betreiber, Hosting und tatsächliche Nutzung angepasst werden.
 
 ## Lokal ansehen
 

@@ -73,6 +73,14 @@ summary:focus-visible {
   font-size: 0.9rem;
 }
 
+.brand--home {
+  font-size: 1.4rem;
+}
+
+.brand--home span {
+  font-size: 1.1rem;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +99,7 @@ nav a[aria-current="page"] {
 }
 
 .hero {
-  padding: 5rem max(1.5rem, calc((100% - 1040px) / 2));
+  padding: 4rem max(1.5rem, calc((100% - 1040px) / 2));
   background: rgb(234 243 236 / 82%);
 }
 
@@ -285,8 +293,8 @@ h3 {
   }
 
   .hero {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .next-event {
