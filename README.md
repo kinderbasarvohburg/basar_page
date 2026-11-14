@@ -29,3 +29,7 @@ Danach `http://localhost:8000` im Browser aufrufen.
 ## Hosting
 
 Die Dateien können unverändert auf einen statischen Webhost geladen werden, zum Beispiel GitHub Pages oder einen Anbieter mit kostenlosem Static-Hosting-Tarif. Es gibt keine Serveranwendung und keine laufenden Backend-Kosten. Eine eigene Domain ist optional und wird üblicherweise separat bezahlt. Vor der Wahl des Hosters Datenschutz, Verfügbarkeit und Bedingungen des jeweiligen Tarifs prüfen.
+
+## Google-Suche
+
+`robots.txt` erlaubt das Crawlen der Website und verweist auf `sitemap.xml`, die die veröffentlichten Seiten auflistet. Nach dem Veröffentlichen kann die Sitemap in der [Google Search Console](https://search.google.com/search-console/) unter „Sitemaps“ eingereicht werden. Dort lässt sich über die URL-Prüfung auch die Indexierung der Startseite beantragen. Das kann die Auffindbarkeit unterstützen, garantiert aber keine Aufnahme oder bestimmte Position in den Suchergebnissen.

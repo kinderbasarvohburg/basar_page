@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kinderbasarvohburg.github.io/basar_page/sitemap.xml
